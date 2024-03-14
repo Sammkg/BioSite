@@ -1,0 +1,64 @@
+body {
+    background-color: gray;
+    margin: 0;
+}
+.main {
+    border: 4px solid gold;
+    height: auto;
+    text-align: center;
+}
+.picter img{
+    width: 150px;
+    height: 150px;
+    border: 4px solid gold;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 2px white;
+    margin-top: 20px;
+    }
+.main h1 {
+    color: white;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: monospace;
+}
+b {
+    color: goldenrod;
+}
+.title {
+    font-size: 20px;
+    color: white;
+    font-family: monospace;
+}
+.links a {
+    display: block;
+    border: 4px solid gold;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 2s;
+    }
+    .links a:hover {
+        border-radius: 0 20px 0 20px;
+        transition: 100ms;
+        box-shadow: 0 0 15px 15px white;
+        background-color: gold;
+    }
+    a:hover {
+        color: red;
+    }
+    .copy {
+        padding: 20px;
+        font-size: 25px;
+    }
+    span {
+        color: goldenrod;
+        font-family: monospace;
+    }
